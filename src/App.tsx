@@ -85,15 +85,14 @@ function App() {
             textTransform: 'uppercase',
           }}
         >
-          LOREM IPSUM
+          Coming Soon
         </h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        <p>I Have No Idea What It Will Be</p>
       </header>
       <hr style={{ width: '60%', border: '1px solid white' }} />
       <main>
         <p style={{ maxWidth: '600px', marginBottom: '20px' }}>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          TBD
         </p>
         <section
           style={{
