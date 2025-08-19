@@ -1,29 +1,4 @@
 
-function BackgroundVideo() {
-  return (
-    <video
-      autoPlay
-      loop
-      muted
-      playsInline
-      style={{
-        position: 'absolute',
-        top: 0,
-        left: 0,
-        width: '100%',
-        height: '100%',
-        objectFit: 'cover',
-        zIndex: -1,
-      }}
-    >
-      <source
-        src="https://upload.wikimedia.org/wikipedia/commons/transcoded/e/e2/Fahrt_auf_die_Kaiser-Franz-Josefs-Hoehe.webm/Fahrt_auf_die_Kaiser-Franz-Josefs-Hoehe.webm.720p.vp9.webm"
-        type="video/webm"
-      />
-    </video>
-  );
-}
-
 import { useState, useEffect } from 'react';
 import './App.css';
 import 'bootstrap-icons/font/bootstrap-icons.css';
