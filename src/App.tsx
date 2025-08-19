@@ -41,16 +41,7 @@ function App() {
         textAlign: 'center',
       }}
     >
-      <BackgroundVideo />
-
       <header
-        style={{
-          backdropFilter: 'blur(8px)',
-          padding: '20px',
-          borderRadius: '10px',
-          background: 'rgba(255, 255, 255, 0.1)',
-          boxShadow: '0 4px 10px rgba(0, 0, 0, 0.3)',
-        }}
       >
         <h1
           style={{
